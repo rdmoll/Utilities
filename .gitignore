@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+# Misc
+build/*
+demo/.DS_Store
+demo/ReadParams/.DS_Store
+.DS_Store
+.DS_Store
+demo/.DS_Store
+include/.DS_Store
+src/.DS_Store

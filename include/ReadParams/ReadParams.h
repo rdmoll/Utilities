@@ -1,9 +1,18 @@
+/////////////////////////
 //
-//  ReadParams.h
-//  HydroCode
+//  FILE NAME:
+//    ReadParams.h
 //
-//  Created by Ryan Moll on 12/13/20.
+//  AUTHOR: 
+//    Ryan Moll
 //
+//  DATE CREATED:
+//    December 13, 2020
+//
+//  LAST REVISION:
+//    February 20, 2022
+//
+/////////////////////////
 
 #ifndef ReadParams_h
 #define ReadParams_h
@@ -23,12 +32,14 @@ namespace io
 class ReadParams
 {
 public:
-  ReadParams( const char*,const char* );
+  ReadParams( const char*, const char* );
   ~ReadParams();
   
-  std::map<std::string,double> iParam;
-  std::map<std::string,double> dParam;
-  std::map<std::string,std::string> strParam;
+  std::map< std::string, int > iParam;
+  std::map< std::string, double > dParam;
+  std::map< std::string, std::string > strParam;
+  
+  bool readSuccessful;
   
 protected:
   int iVal;
