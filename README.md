@@ -19,4 +19,8 @@
     parameters stored in these maps simply pass the value name from the parameter file
     as the key in the appropriate map object.
     
-    See the "demo" folder for an example of how the use the ReadParams class. 
+    See the "demo" folder for an example of how the use the ReadParams class.
+    
+# Scalar1D, Scalar2D, and Scalar3D
+  DESCRIPTION :
+    
