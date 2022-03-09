@@ -23,4 +23,14 @@
     
 # Scalar1D, Scalar2D, and Scalar3D
   DESCRIPTION :
+    These classes serve as representations of 1D, 2D, and 3D arrays. Array elements can 
+    be identified using the appropiate indicies for the dimension of the array. The
+    underlying data are contained in a private unique_ptr defined in each ScalarXD 
+    object.
+    
+  USAGE :
+  
+# ioNetCDF
+  DESCRIPTION :
+    This code serves as a wrapper around the NetCDF functions.
     
