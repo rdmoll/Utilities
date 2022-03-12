@@ -4,20 +4,21 @@
 #include "Scalar1D.h"
 #include "Scalar2D.h"
 #include "Scalar3D.h"
-#include "Transforms.h"
-#include "MathOps.h"
-#include "TestSolver.h"
-#include "mpi.h"
 
 int main( int argc, const char * argv[] )
 {
-  int myRank, p, n;
+  // Scalar 1D -- initialization, get, and set methods
   
-  MPI_Init( NULL, NULL );
-  MPI_Comm_size( MPI_COMM_WORLD, &p );
-  MPI_Comm_rank( MPI_COMM_WORLD, &myRank );
+  // Scalar 1D -- operators
   
-  std::cout << "Total num procs = " << p << " , proc rank = " << myRank << std::endl;
+  // Scalar 2D -- initialization, get, and set methods
+  
+  // Scalar 2D -- operators
+  
+  // Scalar 3D -- initialization, get, and set methods
+  
+  // Scalar 3D -- operators
+  
   
   /*
   std::size_t N = 16777216; //16;

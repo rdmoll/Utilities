@@ -26,11 +26,11 @@
     These classes serve as representations of 1D, 2D, and 3D arrays. Array elements can 
     be identified using the appropiate indicies for the dimension of the array. The
     underlying data are contained in a private unique_ptr defined in each ScalarXD 
-    object. Currently, the underlying data in all containers are doubles. 
+    object. 
     
   USAGE :
-    Either create an instance of a conatainer initializing it with a particular size or 
-    call the setSize method after creating the instance. 
+    Either create an instance of a conatainer by initializing it with a particular size or 
+    with a default constructor followed by a call to the setSize method. 
   
 # ioNetCDF
   DESCRIPTION :
