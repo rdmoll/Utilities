@@ -15,12 +15,14 @@ list( APPEND includePath "${CMAKE_CURRENT_SOURCE_DIR}/include/Containers"
 
 #Use file(GLOB...) for wildcard additions
 file( GLOB SOURCES "src/IO/*.cpp" 
-                   "src/ReadParams/*.cpp" )
+                   "src/ReadParams/*.cpp"
+		   "src/Math/*.cpp" )
 
 #Use file(GLOB...) for wildcard additions
 file( GLOB HEADERS "include/Containers/*.h"
-                   "Include/IO/*.h"
-                   "Include/ReadParams/*.h" )
+                   "include/IO/*.h"
+                   "include/ReadParams/*.h"
+		   "include/math/*.h" )
 
 #Link libraries for executables
 
